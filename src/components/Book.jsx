@@ -73,6 +73,7 @@ const pageMaterials = [
     new MeshStandardMaterial({ color: "#111" }),
     new MeshStandardMaterial({ color: whiteColor }),
     new MeshStandardMaterial({ color: whiteColor }),
+    
 ];
 
 pages.forEach((page) => {

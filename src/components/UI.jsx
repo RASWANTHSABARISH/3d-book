@@ -5,6 +5,7 @@ const pictures = [
   "DSC00933",
   "DSC00966",
   "DSC00983",
+  "DSC00993",
   "DSC01011",
   "DSC01040",
   "DSC01064",
@@ -14,9 +15,8 @@ const pictures = [
   "DSC01420",
   "DSC01461",
   "DSC01489",
-  "DSC02031",
-  "DSC02064",
-  "DSC02069",
+ 
+  
 ];
 
 export const pageAtom = atom(0);
@@ -50,10 +50,10 @@ export const UI = () => {
     <>
       <main className=" pointer-events-none select-none z-10 fixed  inset-0  flex justify-between flex-col">
         <a
-          className="pointer-events-auto mt-10 ml-10"
+          className="pointer-events-auto mt-10 ml-10 text-white"
           href="#"
         >
-          <img className="w-20" src="/images/logo.svg" />
+          Raswanth
         </a>
         <div className="w-full overflow-auto pointer-events-auto flex justify-center">
           <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
@@ -100,7 +100,7 @@ export const UI = () => {
               Varuvaaney,
             </h2>
             <h2 className="shrink-0 text-white text-9xl font-medium">
-              Manikanum maamsey
+              Manikanum momsey
             </h2>
             <h2 className="shrink-0 text-white text-9xl font-extralight italic">
               ada avanum 
