@@ -67,7 +67,7 @@ export const UI = () => {
                 }`}
                 onClick={() => setPage(index)}
               >
-                {index === 0 ? "Cover" :  `${index}`}
+                {index === 0 ? "Front" :  `${index}`}
               </button>
             ))}
             <button
@@ -78,13 +78,13 @@ export const UI = () => {
               }`}
               onClick={() => setPage(pages.length)}
             >
-              Back Cover
+              Back 
             </button>
           </div>
         </div>
       </main>
 
-      <div className="fixed inset-0 flex items-center -rotate-2 select-none ">
+      <div className="fixed inset-0 flex items-center -rotate-2 select-none hidden ">
         <div className="relative">
           <div className="bg-white/0  animate-horizontal-scroll flex items-center gap-8 w-max px-8">
             <h1 className="shrink-0 text-white text-10xl font-black ">
@@ -136,7 +136,6 @@ export const UI = () => {
             </h2>
             <h2 className="shrink-0 text-transparent text-13xl font-bold outline-text italic">
               Naandhaaneyy!🗿
-
             </h2>
           </div>
         </div>
